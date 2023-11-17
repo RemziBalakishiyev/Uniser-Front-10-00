@@ -1,0 +1,62 @@
+/* main .first p {
+  color: blue;
+}
+
+main .second p,
+section .first .content {
+  background-color: #15616d;
+  color: #f8ad9d;
+} */
+/* 
+main > div {
+  background-color: #ef476f;
+} */
+
+/* .second ~ h2 {
+  background-color: #3c096c;
+} */
+
+/* main {
+  background-color: #52b788;
+  padding: 5px 15px;
+}
+
+main h2 {
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: "Edu TAS Beginner", cursive; */
+/* border-width: 15px;
+  border-style: ridge;
+  border-color: #fb6f92; */
+/*? 🔽 */
+/* border: 10px dotted #fb6f92; */
+/* } */
+
+/* main a {
+  color: #b5e2fa;
+  background-color: #ef233c;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Sometype Mono", monospace;
+  border-radius: 20%;
+} */
+
+main .btn-primary {
+  padding: 16px 48px;
+  background-color: #5d1be0;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+#head {
+  color: #83c5be;
+}
+
+.content-text {
+  background-color: crimson;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.light-blue-color {
+  color: #006d77;
+}
+
+button {
+  background-color: #adc178;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  /*?  🔽 */
+  /* margin-inline: 20px; */
+
+  /* margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 50px; */
+  /*?  🔽 */
+  /* margin: 30px 50px; */
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-right: r;
+  margin-left: 10px;
+
+  margin: 20px 50px 5px 10px;
+
+  padding: 10px 20px 40px 15px;
+}
+
+.text-content-one {
+  width: 500px;
+  height: 300px;
+
+  margin-left: 100px;
+  margin-top: 300px;
+  margin-bottom: 400px;
+}

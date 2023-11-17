@@ -1,0 +1,1 @@
+Her hansisa bir soz!
