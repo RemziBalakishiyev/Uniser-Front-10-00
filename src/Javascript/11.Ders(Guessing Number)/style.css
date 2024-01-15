@@ -1,0 +1,123 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-header {
+  color: #000;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.main-btn {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: #778699;
+  padding: 16px 52px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.main-btn:hover {
+  background-color: #4b5767;
+}
+
+.number-input {
+  width: 40%;
+  border: none;
+  padding: 15px 32px;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.guess-btn {
+  border-radius: 6px;
+  border: 1px solid rgba(26, 22, 198, 0.82);
+  background: #4f779d;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.7s;
+  border: none;
+  height: 50px;
+}
+
+.guess-btn:hover {
+  background: #1d2c3a;
+}
+
+.guess-btn-invalid {
+  border-radius: 6px;
+  border: 1px solid rgba(26, 22, 198, 0.82);
+  background: #e84626;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.7s;
+  border: none;
+}
+
+progress {
+  margin-block: 30px;
+  width: 700px;
+  height: 30px;
+  border: green 1px solid;
+  color: green;
+}
+
+.error-message {
+  color: #e84626;
+  text-align: center;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 5px;
+  margin: 5px;
+}
+
+.input-group {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
