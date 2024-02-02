@@ -88,6 +88,8 @@ const errorMessage = function (err) {
   card.innerHTML = `<span class="alert alert-danger">There is something: ${err}❌ </span>`;
 };
 
+
+
 const findACountry = function (countryName) {
   fetch(`${BASE_URL}${countryName}`)
     .then((res) => res.json())
